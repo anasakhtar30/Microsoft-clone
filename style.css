@@ -1,0 +1,841 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/** box1 **/
+.navbar {
+    height: 54px;
+    background-color: #FFFFFF;
+    /* border: 2px solid black; */
+    display: flex;
+
+}
+
+/** box2 **/
+.mic-logo {
+    width: 137px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+}
+
+.micro {
+    margin-left: 3px;
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.mic-logo p {
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mic-logo i {
+    font-size: 1.5rem;
+}
+
+
+.nav-anchor {
+    width: 585px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.nav-anchor a {
+    margin-right: 8px;
+    padding: 16px 8px 10px;
+    color: #262626;
+    text-decoration: none;
+
+}
+
+.border a:hover {
+    border: 2px solid black;
+    border-style: dotted;
+}
+
+/** box3 **/
+.button {
+    width: 109px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    padding-top: 2px;
+    font-size: 0.96rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.select {
+    border: none;
+}
+
+/** box4 **/
+
+.search-button {
+    width: 36px;
+    height: 45px;
+    margin-left: 20px;
+    margin-top: 3px;
+    padding-top: 2px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/**box5 **/
+
+.cart {
+    width: 30px;
+    height: 47px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+/** box6 **/
+.add-contact {
+    width: 48px;
+    height: 48px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+
+}
+
+/** content **/
+
+.content {
+    width: 99%;
+    height: 537px;
+    margin-left: 5px;
+}
+
+/** pause-resume **/
+
+.pause-resume {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.outer-play {
+    width: 240px;
+    height: 44px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bullets {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/** Container **/
+
+.container {
+    height: 120px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contain-element {
+    height: 120px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+}
+
+.micro-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.micro-outer {
+    margin: 25px;
+}
+
+/** Box-a **/
+
+.boxes-1 {
+    width: 100%;
+    height: 600px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    background-color: #f0f6f6;
+}
+
+.box-1 {
+    width: 290px;
+    height: 530px;
+    margin-top: 20px;
+    /* border: 2px solid black;  */
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+.image-1 {
+    width: 266px;
+    height: 150px;
+    background-image: url("Surface_Laptop.jpeg");
+    background-size: cover;
+    margin: 10px;
+}
+
+.content-1 {
+    width: 266px;
+    height: 258px;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 10px;
+}
+
+.sub-content-1 {
+    border: 2px solid purple;
+
+}
+
+.foot-1 {
+    width: 285px;
+    height: 87px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-foot-1 {
+    width: 218px;
+    height: 56px;
+
+}
+
+.sub-foot-1 button {
+    width: 110px;
+    height: 40px;
+    background-color: #0067B8;
+    margin-top: 8px;
+    font-size: 1.1rem;
+    text-align: center;
+    border-radius: 4px;
+
+}
+
+/**box-2 **/
+.box-2 {
+    width: 290px;
+    height: 530px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* border: 2px solid black;  */
+    background-color: white;
+
+}
+
+.image-2 {
+    width: 266px;
+    height: 150px;
+    background-image: url("Surface-Laptop-Studio-01-CP.webp");
+    background-size: cover;
+    margin: 10px;
+}
+
+.content-2 {
+    width: 266px;
+    height: 258px;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 10px;
+}
+
+.sub-content-2 {
+    border: 2px solid purple;
+
+}
+
+.foot-2 {
+    width: 285px;
+    height: 87px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-foot-2 {
+    width: 218px;
+    height: 56px;
+
+}
+
+.sub-foot-2 button {
+    width: 110px;
+    height: 40px;
+    background-color: #0067B8;
+    margin-top: 8px;
+    font-size: 1.1rem;
+    text-align: center;
+    border-radius: 4px;
+
+}
+
+/** box-3 **/
+
+.box-3 {
+    width: 290px;
+    height: 530px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* border: 2px solid black;  */
+    background-color: white;
+
+}
+
+.image-3 {
+    width: 266px;
+    height: 150px;
+    background-image: url("Xbox-SeriesX.webp");
+    background-size: cover;
+    margin: 10px;
+}
+
+.content-3 {
+    width: 266px;
+    height: 258px;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 10px;
+}
+
+.sub-content-3 {
+    border: 2px solid purple;
+
+}
+
+.foot-3 {
+    width: 285px;
+    height: 87px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-foot-3 {
+    width: 218px;
+    height: 56px;
+
+}
+
+.sub-foot-3 button {
+    width: 110px;
+    height: 40px;
+    background-color: #0067B8;
+    margin-top: 8px;
+    font-size: 1.1rem;
+    text-align: center;
+    border-radius: 4px;
+    color: white;
+
+}
+
+/** box-4 */
+
+.box-4 {
+    width: 290px;
+    height: 530px;
+    margin-top: 20px;
+    /* border: 2px solid black;  */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    background-color: white;
+
+}
+
+.image-4 {
+    width: 266px;
+    height: 150px;
+    background-image: url("Maximise.avif");
+    background-size: cover;
+
+    margin: 10px;
+}
+
+.content-4 {
+    width: 266px;
+    height: 258px;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 10px;
+}
+
+.sub-content-4 {
+    border: 2px solid purple;
+
+}
+
+.foot-4 {
+    width: 285px;
+    height: 87px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-foot-4 {
+    width: 218px;
+    height: 56px;
+
+}
+
+.sub-foot-4 button {
+    width: 110px;
+    height: 40px;
+    background-color: #0067B8;
+    margin-top: 8px;
+    font-size: 1.1rem;
+    text-align: center;
+    border-radius: 4px;
+
+}
+
+/** Footer **/
+
+.Footer-1 {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-Footer-1 {
+    width: 1137px;
+    height: 600px;
+    background-image: url("Xbox-SeriesS.webp");
+}
+
+/** boxes-2 **/
+
+.boxes-1 {
+    width: 100%;
+    height: 600px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    background-color: #f0f6f6;
+}
+
+.box-1 {
+    width: 290px;
+    height: 530px;
+    margin-top: 20px;
+    /* border: 2px solid black;  */
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+.image-1 {
+    width: 266px;
+    height: 150px;
+    background-image: url("Surface_for_busniess.avif");
+    background-size: cover;
+    margin: 10px;
+}
+
+.content-1 {
+    width: 266px;
+    height: 258px;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 10px;
+}
+
+.sub-content-1 {
+    border: 2px solid purple;
+
+}
+
+.foot-1 {
+    width: 285px;
+    height: 87px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-foot-1 {
+    width: 218px;
+    height: 56px;
+
+}
+
+.sub-foot-1 button {
+    width: 110px;
+    height: 40px;
+    background-color: #0067B8;
+    margin-top: 8px;
+    font-size: 1.1rem;
+    text-align: center;
+    border-radius: 4px;
+
+}
+
+/**box-2 **/
+.box-2 {
+    width: 290px;
+    height: 530px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    /* border: 2px solid black;  */
+    background-color: white;
+
+}
+
+.image-2 {
+    width: 266px;
+    height: 150px;
+    background-image: url("Get_Microsoft_Team_free.webp");
+    background-size: cover;
+    margin: 10px;
+}
+
+.content-2 {
+    width: 266px;
+    height: 258px;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 10px;
+}
+
+.sub-content-2 {
+    border: 2px solid purple;
+
+}
+
+.foot-2 {
+    width: 285px;
+    height: 87px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-foot-2 {
+    width: 218px;
+    height: 56px;
+
+}
+
+.sub-foot-2 button {
+    width: 110px;
+    height: 40px;
+    background-color: #0067B8;
+    margin-top: 8px;
+    font-size: 1.1rem;
+    text-align: center;
+    border-radius: 4px;
+
+}
+
+/** box-3 **/
+
+.box-3 {
+    width: 290px;
+    height: 530px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    /* border: 2px solid black;  */
+    background-color: white;
+
+}
+
+.image-3 {
+    width: 266px;
+    height: 150px;
+    background-image: url("Window_11_business.jpeg");
+    background-size: cover;
+    margin: 10px;
+}
+
+.content-3 {
+    width: 266px;
+    height: 258px;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 10px;
+}
+
+.sub-content-3 {
+    border: 2px solid purple;
+
+}
+
+.foot-3 {
+    width: 285px;
+    height: 87px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-foot-3 {
+    width: 218px;
+    height: 56px;
+
+}
+
+.sub-foot-3 button {
+    width: 110px;
+    height: 40px;
+    background-color: #0067B8;
+    margin-top: 8px;
+    font-size: 1.1rem;
+    text-align: center;
+    border-radius: 4px;
+    color: white;
+
+}
+
+/** box-4 */
+
+.box-4 {
+    width: 290px;
+    height: 530px;
+    margin-top: 20px;
+    /* border: 2px solid black;  */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+
+}
+
+.image-4 {
+    width: 266px;
+    height: 150px;
+    background-image: url("Join_the_era_AI.avif");
+    background-size: cover;
+    margin: 10px;
+}
+
+.content-4 {
+    width: 266px;
+    height: 258px;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 10px;
+}
+
+.sub-content-4 {
+    border: 2px solid purple;
+
+}
+
+.foot-4 {
+    width: 285px;
+    height: 87px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-foot-4 {
+    width: 218px;
+    height: 56px;
+
+}
+
+.sub-foot-4 button {
+    width: 110px;
+    height: 40px;
+    background-color: #0067B8;
+    margin-top: 8px;
+    font-size: 1.1rem;
+    text-align: center;
+    border-radius: 4px;
+
+}
+
+.social-network {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 32px;
+    display: flex;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    margin-left: 90px;
+}
+
+.facebook {
+    margin-left: 25px;
+    margin-top: 8px;
+    font-size: 1.2rem;
+}
+
+.youtube {
+    margin-left: 25px;
+    margin-top: 8px;
+    font-size: 1.2rem;
+
+}
+
+.twitter {
+    margin-left: 25px;
+    margin-top: 8px;
+    font-size: 1.2rem;
+
+}
+
+/** back-to-top */
+
+.back-to-top {
+    width: 100%;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.sub-back-to-top {
+    width: 143px;
+    height: 40px;
+    position: absolute;
+    right: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e2e7e6;
+    font-size: 1.2rem;
+}
+
+.arrow {
+    margin-right: 10px;
+}
+
+.ground {
+    width: 100%;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f6f6;
+    margin-top: 50px;
+}
+
+.sub-ground {
+    height: 332px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.sub-ground ul {
+    list-style-type: none;
+}
+
+.sub-ground li {
+    margin: 15px;
+}
+
+.sub-ground h4 {
+    margin: 15px;
+}
+
+
+.lower {
+    background-color: #f0f6f6;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-lower {
+    width: 97%;
+    height: 30px;
+    display: flex;
+}
+
+.sub-lower span {
+    margin-top: 10px;
+    margin-left: 90px;
+
+}
+
+.sub-lower a {
+    margin-left: 6px;
+    text-decoration: none;
+}
+
+.sub-lower i {
+    margin-top: 12px;
+
+}
+
+.sub-lower p {
+    margin-top: 8px;
+}
+
+.sub-lower ul {
+    position: absolute;
+    right: 30px;
+    display: flex;
+    list-style-type: none;
+}
+
+.sub-lower li {
+    padding: 10px;
+}
+
+.copyright {
+    margin-right: px;
+}
